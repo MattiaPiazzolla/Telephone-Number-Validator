@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./Images/phone-circle.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Telephone Number Validator</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Telephone Number Validator</h1>
+        <div class="phone">
+            <label for="user-input">Enter a phone number</label>
+            <input type="text" id="user-input" placeholder="123-456-7890">
+            <div class="buttons-container">
+                <button id="check-btn">Check</button>
+                <button id="clear-btn">Clear</button>
+            </div>
+            <div id="results-div"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
